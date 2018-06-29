@@ -1,0 +1,15 @@
+mutation {
+  createUser(name: "Tyron", email: "teste") {
+    id
+    name
+    email
+  }
+}
+
+query {
+  allUsers {
+    id
+    name
+    email
+  }
+}
